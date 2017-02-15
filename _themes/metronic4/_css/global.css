@@ -1,0 +1,136 @@
+/*
+Arquivo com estilos extras ao tema
+*/
+
+.__upper{
+    text-transform: uppercase;
+}
+.__lower{
+    text-transform: lowercase;
+}
+.__link {
+    cursor: pointer;
+}
+.__acenter {
+    text-align: center !important;
+}
+.__aleft {
+    text-align: left !important;
+}
+.__aright {
+    text-align: right !important;
+}
+.__painelCampos{
+    padding: 20px 20px 0 20px;
+}
+.nenhumResultado{
+    text-align: center;
+    padding: 20px;
+    color: #999;
+}
+/*#exame {
+    margin-left: 1px;
+    font-weight: bold;
+}*/
+.filterForm {
+    margin-bottom: 5px !important;
+    padding-top: 10px;
+}
+.filterForm .chzn-container {
+    margin-right: 10px;
+}
+.filterForm input, .filterForm button, .filterForm select, .filterForm .chzn-container {
+    vertical-align: top !important;
+    /*margin-bottom: 10px !important;*/
+}
+.filterForm img{
+    vertical-align: top;
+    margin-top: 7px;
+    margin-right: 10px;
+}
+.filterForm input, .filterForm select, .filterForm div.btn, .filterForm div.select2-container {
+    float: left;
+}
+
+.sepH_a {margin-bottom:5px !important}.sepH_b {margin-bottom:10px !important}.sepH_c {margin-bottom:20px !important}
+.sepV_a {margin-right:5px}.sepV_b {margin-right:10px}.sepV_c {margin-right:20px}
+
+#divForm{
+    display: none;
+}
+#divView{
+    display: none;
+}
+.acaoWidget{
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.acaoWidget:hover{
+    color: #F1F1F1 !important;
+}
+
+.jqpagination{
+    display: none;
+    text-align: center !important;
+    margin: 5px 0 0 0 !important;
+}
+.jqpagination input{
+    font-size: 12px;
+    /*height: 16px;*/
+    margin: 0 !important;
+    text-align: center;
+    width: 115px;
+    display: block;
+}
+.jqpagination ul > li {
+    display: inline-block !important;
+    vertical-align: top !important;
+}
+.jqpaginationContent{
+    /*padding: 10px 0;*/
+    min-height: 40px;
+}
+.jqpaginationContent .table{
+    margin-bottom: 0 !important;
+}
+tr.linhaRegistro{
+    cursor: pointer;
+}
+.p__btn_exportar{
+    cursor: pointer;
+}
+#divFiltrosAvancados{
+    display: none;
+    margin-top: 5px;
+}
+
+/* Landscape phones and down */
+@media  (max-width: 480px) {
+
+}
+
+@media (max-width: 979px) {
+    .no-more-tables td {
+        border: none !important;
+        text-align: left !important;
+    }
+    .no-more-tables tr {
+        border: 1px solid #DDDDDD !important;
+    }
+}
+
+@media (max-width: 767px) {
+
+}
+
+.table.no-border td{
+    border: none;
+}
+
+.no-margin {
+    margin: 0px !important;
+}
+.no-padding {
+    padding: 0px !important;
+}
+

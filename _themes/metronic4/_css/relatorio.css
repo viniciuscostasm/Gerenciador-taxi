@@ -1,0 +1,139 @@
+body {
+    color: #444444;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+}
+#topo {
+    border: 1px solid #CCC;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+#imgRelatorio {
+    float: left;
+}
+#nomeRelatorio{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #CCC;
+    font-size: 18px;
+    font-weight: bold;
+}
+#ambiente {
+    font-size: 18px;
+    text-align: right;
+    font-weight: bold;
+}
+#ambienteEndereco {
+    font-size: 14px;
+    text-align: right;
+}
+#ambienteTelefone {
+    font-size: 14px;
+    text-align: right;
+}
+.tableInfo{
+    border: 1px solid #CCC;
+    margin-bottom:30px;
+}
+.resposta {
+    padding-top: 20px;
+}
+th {
+    text-align: left;
+}
+td{
+    padding: 5px;
+}
+hr{
+    width: 730px !important;
+}
+
+#linhaProprietario td, .linhaProprietario{
+    border-top: 1px solid #ccc;
+    padding-top: 7px;
+}
+#linhaAnimal td, .linhaAnimal{
+    padding-bottom: 7px;
+}
+
+.page-header {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: normal;
+    margin: 0 0 15px;
+}
+.page-header {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 9px;
+}
+.table {
+    /*margin-bottom: 20px;*/
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    max-width: 100%;
+}
+.no-border td {
+    border-top: none !important;
+}
+.table.table-striped tbody tr:nth-child(2n+1) td, .table.table-striped tbody tr:nth-child(2n+1) th {
+    background-color: #F9F9F9;
+}
+.table th, .table td {
+    border-top: 1px solid #ccc;
+    vertical-align: middle;
+    line-height: 18px;
+    padding: 5px;
+    text-align: left;
+}
+.table-condensed th, .table-condensed td {
+    padding: 2px !important;
+}
+.table th {
+    border-top: none !important;
+    font-weight: bold;
+}
+.pull-right {
+    float: right;
+}
+.pull-left {
+    float: left;
+}
+.__aleft{
+    text-align: left !important;
+}
+.__aright{
+    text-align: right !important;
+}
+#header{
+    margin-bottom: 8px;
+    /* border-bottom: 1px solid #DDDDDD;*/
+}
+
+.sepV_a {
+    margin-right: 5px;
+}
+.sepV_b {
+    margin-right: 10px;
+}
+.sepV_c {
+    margin-right: 20px;
+}
+
+.sepH_a {
+    margin-bottom: 5px;
+}
+.sepH_b {
+    margin-bottom: 10px;
+}
+.sepH_c {
+    margin-bottom: 20px;
+}
+
+.no-border-bg td{
+    border-top: none !important;
+    background: none !important;
+    padding: 4px !important;
+}
